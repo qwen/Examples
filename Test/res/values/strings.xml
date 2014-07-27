@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="button1">Toast !!!</string>
+    <string name="button2">Ok</string>
+    <string name="button3">Clear !!!</string>
+    <string name="text">Нажата кнопка Ок</string>
+    <string name="text2"></string>
+       
+
+</resources>
