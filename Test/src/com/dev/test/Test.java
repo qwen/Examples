@@ -1,10 +1,10 @@
 package com.dev.test;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -15,6 +15,7 @@ public class Test extends Activity {
 	Button button1;
 	Button button2;
 	Button button3;
+	Button button4;
 	TextView text1;
 	
 	@Override
@@ -43,6 +44,8 @@ public class Test extends Activity {
 		text1.setText(R.string.text2);
 	}
 	
-	
-
+	public void OnClickbutton4 (View v){
+		Intent Intent = new Intent(Test.this, Foto.class);
+        startActivity(Intent);
+	}
 }

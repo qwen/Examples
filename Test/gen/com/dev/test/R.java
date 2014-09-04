@@ -10,25 +10,64 @@ package com.dev.test;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f040006;
+        public static final int darkorange=0x7f04000a;
+        public static final int darkslategray=0x7f04000b;
+        public static final int logo_color=0x7f040000;
+        public static final int red=0x7f040009;
+        public static final int still=0x7f040004;
+        public static final int svin=0x7f040005;
+        public static final int title_color=0x7f040007;
+        public static final int title_glow=0x7f040008;
+        public static final int version_bkgrd=0x7f040002;
+        public static final int version_color=0x7f040001;
+        public static final int vite=0x7f040003;
+    }
+    public static final class dimen {
+        public static final int activity_horizontal_margin=0x7f050009;
+        public static final int activity_vertical_margin=0x7f05000a;
+        public static final int otstup=0x7f05000c;
+        public static final int paddingRL=0x7f05000b;
+        public static final int size13=0x7f050007;
+        public static final int size15=0x7f050006;
+        public static final int size18=0x7f050005;
+        public static final int size20=0x7f050004;
+        public static final int size25=0x7f050003;
+        public static final int size30=0x7f050002;
+        public static final int size35=0x7f050001;
+        /**  Default screen margins, per the Android Design guidelines. 
+         */
+        public static final int size46=0x7f050000;
+        public static final int size5=0x7f050008;
+    }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int button1=0x7f060000;
-        public static final int button2=0x7f060001;
-        public static final int button3=0x7f060002;
-        public static final int text1=0x7f060003;
+        public static final int button1=0x7f080000;
+        public static final int button2=0x7f080001;
+        public static final int button3=0x7f080002;
+        public static final int button4=0x7f080003;
+        public static final int progressBar1=0x7f080008;
+        public static final int progressBar2=0x7f080006;
+        public static final int scrollView1=0x7f080005;
+        public static final int text1=0x7f080004;
+        public static final int webview1=0x7f080009;
+        public static final int webview2=0x7f080007;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int main2=0x7f030001;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int button1=0x7f040001;
-        public static final int button2=0x7f040002;
-        public static final int button3=0x7f040003;
-        public static final int text=0x7f040004;
-        public static final int text2=0x7f040005;
+        public static final int app_name=0x7f060000;
+        public static final int button1=0x7f060001;
+        public static final int button2=0x7f060002;
+        public static final int button3=0x7f060003;
+        public static final int button4=0x7f060004;
+        public static final int text=0x7f060005;
+        public static final int text2=0x7f060006;
     }
     public static final class style {
         /** 
@@ -52,10 +91,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f070001;
     }
 }
